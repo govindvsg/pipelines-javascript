@@ -24,11 +24,11 @@ steps:
 
 - task: Npm@1
   inputs:
-    customEndpoint: 'pipelines-javascript'
+    customEndpoint: 'govindvsg'
 
 - task: npmAuthenticate@0
   inputs:
-    customEndpoint: 'pipelines-javascript'
+    customEndpoint: 'govindvsg'
 
 - script: yarn install
 
