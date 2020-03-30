@@ -24,11 +24,11 @@ steps:
 
 - task: Npm@1
   inputs:
-    customEndpoint: 'sample-java-build'
+    customEndpoint: 'pipelines-javascript'
 
 - task: npmAuthenticate@0
   inputs:
-    customEndpoint: 'sample-java-build'
+    customEndpoint: 'pipelines-javascript'
 
 - script: yarn install
 
