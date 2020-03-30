@@ -22,14 +22,6 @@ steps:
 
 - script: npm install
 
-- task: Npm@1
-  inputs:
-    customEndpoint: 'govindvsg'
-
-- task: npmAuthenticate@0
-  inputs:
-    customEndpoint: 'govindvsg'
-
 - script: yarn install
 
 - script: npm run compile
